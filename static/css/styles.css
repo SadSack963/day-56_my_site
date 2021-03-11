@@ -1,0 +1,14 @@
+/* palette = [fbfad3, c6e377, 729d39, 36622b - https://colorhunt.co/palette/135904] */
+
+body {
+    background-color: #fbfad3;
+}
+hr {
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color:#c6e377;
+    width: 5%;
+} 
+h1, h3 {
+    color: #36622b;
+}
