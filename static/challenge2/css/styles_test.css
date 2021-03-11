@@ -1,0 +1,35 @@
+/* 
+https://colorhunt.co/palette/14832 
+colors: e4f9f5 30e3ca 11999e 40514e
+*/
+
+body {
+    margin: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    border: solid 10px black;
+}
+div.top {
+    background-color: #e4f9f5;
+    padding: 20px;
+}
+div.mid {
+    background-color: red;
+    border-width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 260px;
+}
+div.bot {
+    background-color: yellow;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+
+h1 {
+    margin-top: 0;
+}

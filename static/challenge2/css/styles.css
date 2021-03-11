@@ -1,0 +1,165 @@
+/* 
+https://colorhunt.co/palette/14832 
+color palette: e4f9f5 30e3ca 11999e 40514e
+*/
+
+/*
+https://fonts.google.com/
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Tangerine', cursive;
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    background-color: white;
+    color: #40614e;
+}
+
+h1 {
+    margin: 50px auto 0;
+    font-family: 'Tangerine', cursive;
+    /* Specifying px is a static size - not scalable, 
+        e.g. for visually impaired who want to change the browser default font-size. 
+    ***** Prefer using rem (root em) ***** to px, % and em. 
+        This is not affected by font-size inheritance e.g. from the body.*/
+    font-size: 5.6rem;
+    /* 100% = 16px = 1em */
+    line-height: 2;
+    color: #66bfbf;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #66bfbf;
+    padding: 30px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+hr {
+    width: 5%;
+    border-color: #eaf6f6;
+    border-style: dotted;
+    border-top-width: 6px;
+    margin: 100px auto 100px auto;
+}
+
+a {
+    color: #11999e;
+}
+
+p {
+    line-height: 2;
+}
+
+.top {
+    position: relative;
+    background-color: #eaf6f6;
+    padding: 100px;
+}
+
+.mid {
+    background-color: white;
+    padding: 100px;
+}
+
+.bot {
+    background-color: #66bfbf;
+    padding: 40px;
+}
+
+.cloud-top {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.cloud-bottom {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    /* scale to 50% of the enclosing element width (mid) */
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.img-plc {
+    /* scale to 50% of the enclosing element width (skill-row)... not 50% of original image size! */
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img-scada {
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.text-contact {
+    width: 30%;
+    margin: 30px auto;
+}
+
+.design_descr {
+    clear: both;
+}
+
+.scada_descr {
+    clear: both;
+}
+
+.footer-link {
+    padding: 5px 20px 5px 20px;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #30e3ca;
+}
+
+.copywrite {
+    font-size: 0.8em;
+    color: #eaf6f6;
+}
+
+/* https://cssbuttoncreator.com/ */
+
+.BUTTON_CONTACT {
+    background: #66BFBF;
+    padding: 5px 15px 5px 15px;
+    border: 0;
+    margin: 30px 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    box-shadow: 5px 6px 15px 0 #40514e;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.BUTTON_CONTACT:hover {
+    background: #11999E;
+ }

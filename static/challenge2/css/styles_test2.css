@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+}
+div.container {
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+div.top {
+    background-color: red;
+    position: absolute;
+    top: 220px;
+    left: 220px;
+}
+div.mid {
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+div.bot {
+    background-color: yellow;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+}
