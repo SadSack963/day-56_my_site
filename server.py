@@ -8,7 +8,8 @@ app = Flask(__name__)
 def home_page():
     # return render_template('./my_site/index.html')
     # return render_template('./my_site/challenge.html')
-    return render_template('./challenge2/index.html')
+    # return render_template('./challenge2/index.html')
+    return render_template('./challenge3/index.html')
 
 
 
